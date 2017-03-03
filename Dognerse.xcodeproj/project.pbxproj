@@ -17,8 +17,6 @@
 		AB9BE2F41E68400200D473A3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9BE2F31E68400200D473A3 /* CoreData.framework */; };
 		AB9BE2FB1E68436400D473A3 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9BE2F61E68436400D473A3 /* DesignableButton.swift */; };
 		AB9BE2FC1E68436400D473A3 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9BE2F71E68436400D473A3 /* DesignableTextField.swift */; };
-		AB9BE2FE1E68436400D473A3 /* SignUp+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9BE2F91E68436400D473A3 /* SignUp+CoreDataClass.swift */; };
-		AB9BE2FF1E68436400D473A3 /* SignUp+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9BE2FA1E68436400D473A3 /* SignUp+CoreDataProperties.swift */; };
 		ABA0A84C1E676A9600FD45A2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0A84B1E676A9600FD45A2 /* MapViewController.swift */; };
 		ABA0A84F1E676AAC00FD45A2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA0A84E1E676AAC00FD45A2 /* MapKit.framework */; };
 		ABA0A8511E676F8A00FD45A2 /* ParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0A8501E676F8A00FD45A2 /* ParkViewController.swift */; };
@@ -41,8 +39,6 @@
 		AB9BE2F31E68400200D473A3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AB9BE2F61E68436400D473A3 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		AB9BE2F71E68436400D473A3 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
-		AB9BE2F91E68436400D473A3 /* SignUp+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignUp+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AB9BE2FA1E68436400D473A3 /* SignUp+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignUp+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		ABA0A84B1E676A9600FD45A2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ABA0A84E1E676AAC00FD45A2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		ABA0A8501E676F8A00FD45A2 /* ParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkViewController.swift; sourceTree = "<group>"; };
@@ -109,8 +105,6 @@
 			children = (
 				AB9BE2F61E68436400D473A3 /* DesignableButton.swift */,
 				AB9BE2F71E68436400D473A3 /* DesignableTextField.swift */,
-				AB9BE2F91E68436400D473A3 /* SignUp+CoreDataClass.swift */,
-				AB9BE2FA1E68436400D473A3 /* SignUp+CoreDataProperties.swift */,
 			);
 			name = Model;
 			path = "untitled folder 2";
@@ -200,10 +194,8 @@
 				ABA0A8551E682BC900FD45A2 /* LoginViewController.swift in Sources */,
 				ABA0A8571E682CDD00FD45A2 /* SignupViewController.swift in Sources */,
 				AB03E5331E6317F600D59444 /* ViewController.swift in Sources */,
-				AB9BE2FE1E68436400D473A3 /* SignUp+CoreDataClass.swift in Sources */,
 				AB9BE2FB1E68436400D473A3 /* DesignableButton.swift in Sources */,
 				AB9BE2FC1E68436400D473A3 /* DesignableTextField.swift in Sources */,
-				AB9BE2FF1E68436400D473A3 /* SignUp+CoreDataProperties.swift in Sources */,
 				ABA0A8591E682F3100FD45A2 /* ContinueViewController.swift in Sources */,
 				AB8D04C41E68B08600E0677F /* MessagesViewController.swift in Sources */,
 				AB03E5311E6317F600D59444 /* AppDelegate.swift in Sources */,

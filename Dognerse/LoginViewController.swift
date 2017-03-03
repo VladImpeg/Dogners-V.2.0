@@ -106,7 +106,7 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        clearData()
+        //clearData()
         email.delegate = self
         password.delegate = self
         designView()
