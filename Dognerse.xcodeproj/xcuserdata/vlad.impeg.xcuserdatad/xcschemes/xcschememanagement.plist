@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>iMessage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>AB03E52C1E6317F600D59444</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ABA57DEE1E6C9FFC00E370E0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

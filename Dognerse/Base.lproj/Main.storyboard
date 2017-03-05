@@ -19,101 +19,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Park View Controller-->
-        <scene sceneID="TPI-C2-Uc7">
-            <objects>
-                <tableViewController id="X5p-gC-79O" customClass="ParkViewController" customModule="Dognerse" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="135" sectionHeaderHeight="28" sectionFooterHeight="28" id="dl9-QI-Bhh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <view key="tableFooterView" contentMode="scaleAspectFit" id="kvp-Hu-1rT">
-                            <rect key="frame" x="0.0" y="163" width="375" height="514"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Riz-qQ-LO3">
-                                    <rect key="frame" x="0.0" y="0.0" width="160" height="504"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <prototypes>
-                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Ahe-Na-Ds2" style="IBUITableViewCellStyleDefault" id="xKf-8J-3zj">
-                                            <rect key="frame" x="0.0" y="28" width="160" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" semanticContentAttribute="playback" tableViewCell="xKf-8J-3zj" id="CVj-XQ-9pW">
-                                                <rect key="frame" x="0.0" y="0.0" width="127" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <subviews>
-                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ahe-Na-Ds2">
-                                                        <rect key="frame" x="15" y="0.0" width="110" height="44"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </tableViewCellContentView>
-                                        </tableViewCell>
-                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="lHV-fC-uN2" style="IBUITableViewCellStyleDefault" id="ZWu-aq-x3d">
-                                            <rect key="frame" x="0.0" y="72" width="160" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZWu-aq-x3d" id="pnE-DZ-JFa">
-                                                <rect key="frame" x="0.0" y="0.0" width="127" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <subviews>
-                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lHV-fC-uN2">
-                                                        <rect key="frame" x="15" y="0.0" width="110" height="44"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </tableViewCellContentView>
-                                        </tableViewCell>
-                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="tJ1-eT-gw7" style="IBUITableViewCellStyleDefault" id="lqu-vF-z9x">
-                                            <rect key="frame" x="0.0" y="116" width="160" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lqu-vF-z9x" id="hk7-Wa-qO7">
-                                                <rect key="frame" x="0.0" y="0.0" width="127" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <subviews>
-                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tJ1-eT-gw7">
-                                                        <rect key="frame" x="15" y="0.0" width="110" height="44"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </tableViewCellContentView>
-                                        </tableViewCell>
-                                    </prototypes>
-                                    <sections/>
-                                </tableView>
-                            </subviews>
-                        </view>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="135" id="TD4-hC-CvC">
-                                <rect key="frame" x="0.0" y="28" width="375" height="135"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TD4-hC-CvC" id="2aa-o0-BK8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="X5p-gC-79O" id="1Gm-Wm-lXg"/>
-                            <outlet property="delegate" destination="X5p-gC-79O" id="xMV-ve-6Bf"/>
-                        </connections>
-                    </tableView>
-                    <toolbarItems/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="szl-dr-JuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1735" y="787"/>
-        </scene>
         <!--Map View Controller-->
         <scene sceneID="J0w-7H-xLz">
             <objects>
@@ -139,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p9Y-h0-Ars" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2818" y="787"/>
+            <point key="canvasLocation" x="1967" y="787"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="2e3-tL-DUn">
@@ -203,7 +108,7 @@
                                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpC-lb-eSE" userLabel="Email Stack View">
                                                                     <rect key="frame" x="0.0" y="0.0" width="339" height="40"/>
                                                                     <subviews>
-                                                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="319-hB-cmy" customClass="DesignableTextField" customModule="Dognerse" customModuleProvider="target">
+                                                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="319-hB-cmy">
                                                                             <rect key="frame" x="0.0" y="0.0" width="339" height="40"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="40" id="AAp-wa-PEn"/>
@@ -220,7 +125,7 @@
                                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P3r-eL-Qoe" userLabel="Password Stack View">
                                                                     <rect key="frame" x="0.0" y="45" width="339" height="40"/>
                                                                     <subviews>
-                                                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="llR-8y-imi" customClass="DesignableTextField" customModule="Dognerse" customModuleProvider="target">
+                                                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="llR-8y-imi">
                                                                             <rect key="frame" x="0.0" y="0.0" width="339" height="40"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="40" id="MyL-l5-a22"/>
@@ -253,7 +158,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="sd7-4U-D6G" userLabel="Button Stack View">
                                         <rect key="frame" x="8" y="387" width="359" height="160"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLj-zh-M3M" customClass="DesignableButton" customModule="Dognerse" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLj-zh-M3M">
                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="50"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -269,10 +174,11 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
+                                                    <action selector="loginButton:" destination="uIr-od-vpv" eventType="touchUpInside" id="69V-7b-i3b"/>
                                                     <segue destination="Q3J-Ic-lA3" kind="show" identifier="toMainVCFromLogin" id="X9O-2U-dNy"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4y-YZ-fEf" customClass="DesignableButton" customModule="Dognerse" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4y-YZ-fEf">
                                                 <rect key="frame" x="0.0" y="110" width="359" height="50"/>
                                                 <color key="backgroundColor" red="1" green="0.81960784310000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -288,7 +194,8 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="CNi-OQ-nY2" kind="show" identifier="toSignUp" id="h0L-Lv-aG1"/>
+                                                    <action selector="signUp:" destination="uIr-od-vpv" eventType="touchUpInside" id="Plx-dl-vjU"/>
+                                                    <segue destination="CNi-OQ-nY2" kind="showDetail" identifier="toSignUp" animates="NO" action="showViewController:sender:" id="l3V-JD-nxI"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -356,28 +263,17 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QM4-1t-AVz"/>
+                    <connections>
+                        <outlet property="email" destination="319-hB-cmy" id="Nat-WQ-me8"/>
+                        <outlet property="loginButtonOutlet" destination="QLj-zh-M3M" id="JNR-eR-Ubk"/>
+                        <outlet property="password" destination="llR-8y-imi" id="WOD-9M-l4b"/>
+                        <outlet property="profilePhotoImageView" destination="dep-8Q-8TC" id="Eqk-Xh-wsZ"/>
+                        <outlet property="signupButtonOutlet" destination="i4y-YZ-fEf" id="YhR-Sd-99f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MwE-HL-ytT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-249" y="-106"/>
-        </scene>
-        <!--Messages View Controller-->
-        <scene sceneID="NWE-If-PhM">
-            <objects>
-                <viewController id="j71-mH-nZ6" customClass="MessagesViewController" customModule="Dognerse" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BRo-Ay-HP6"/>
-                        <viewControllerLayoutGuide type="bottom" id="gjE-vG-6Ay"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fIJ-eC-QNU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.40928078490000003" blue="0.9034276832" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bBi-LW-hX2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-276" y="787"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="4Ra-rO-7KP">
@@ -394,7 +290,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sk7-v2-7CB">
                                 <rect key="frame" x="0.0" y="-8" width="361" height="667"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yl8-k9-WEs" customClass="DesignableButton" customModule="Dognerse" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yl8-k9-WEs">
                                         <rect key="frame" x="8" y="534" width="344" height="50"/>
                                         <color key="backgroundColor" red="0.018645260479999998" green="0.4776622653" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -410,6 +306,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="logoutButton:" destination="Q3J-Ic-lA3" eventType="touchUpInside" id="jRG-47-r2S"/>
                                             <segue destination="uIr-od-vpv" kind="presentation" identifier="toLoginVC" id="Mbk-Fp-wIH"/>
                                         </connections>
                                     </button>
@@ -450,9 +347,6 @@
                                         <rect key="frame" x="157" y="472" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
-                                        <connections>
-                                            <segue destination="X5p-gC-79O" kind="show" id="KDL-fJ-0yu"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -477,6 +371,11 @@
                             <constraint firstItem="Sk7-v2-7CB" firstAttribute="leading" secondItem="4Mk-QB-cd8" secondAttribute="leading" id="rZW-uR-WAw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="logoutButtonoutlet" destination="yl8-k9-WEs" id="DrT-fc-JrB"/>
+                        <outlet property="profilePictureImageView" destination="QBG-3w-XpH" id="ENF-DA-CQ3"/>
+                        <outlet property="usernameLabel" destination="DjH-K6-aPi" id="m4p-Q6-bPr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sN6-mz-UsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -485,7 +384,7 @@
         <!--Signup View Controller-->
         <scene sceneID="RlR-9b-kQg">
             <objects>
-                <viewController id="CNi-OQ-nY2" customClass="SignupViewController" sceneMemberID="viewController">
+                <viewController autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" providesPresentationContextTransitionStyle="YES" id="CNi-OQ-nY2" customClass="SignupViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dyX-Qv-yFF"/>
                         <viewControllerLayoutGuide type="bottom" id="bhi-B4-bNn"/>
@@ -500,7 +399,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="E5C-PA-SVG" userLabel="Name Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="40"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VS3-Qh-Rja" customClass="DesignableTextField" customModule="Dognerse" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VS3-Qh-Rja">
                                                 <rect key="frame" x="0.0" y="0.0" width="169" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="bs5-7J-2Mz"/>
@@ -509,7 +408,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="Name"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="leftImage" value="firstName"/>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g2M-J9-gs0">
@@ -520,6 +419,9 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="leftImage" value="lastName"/>
+                                                </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
                                         <constraints>
@@ -530,7 +432,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ttC-cZ-7s0" userLabel="Email Stack View">
                                         <rect key="frame" x="0.0" y="45" width="343" height="40"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mF4-Ca-x36" customClass="DesignableTextField" customModule="Dognerse" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mF4-Ca-x36">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="aS4-Ks-Jqg"/>
@@ -539,7 +441,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="email"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="leftImage" value="email"/>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
@@ -547,7 +449,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rWW-iA-Lv3" userLabel="Password Stack View">
                                         <rect key="frame" x="0.0" y="90" width="343" height="40"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LFe-4Q-rF4" customClass="DesignableTextField" customModule="Dognerse" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LFe-4Q-rF4">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="VoG-0Q-Gfm"/>
@@ -556,7 +458,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="password"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="leftImage" value="password"/>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
@@ -564,7 +466,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="RPv-P3-PFf" userLabel="Continue Button Stack View">
                                         <rect key="frame" x="0.0" y="135" width="343" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQU-Wj-ihg" customClass="DesignableButton" customModule="Dognerse" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQU-Wj-ihg">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -580,30 +482,14 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="FFc-o9-VxB" kind="presentation" identifier="continueSegue" id="mv3-4S-4sk"/>
+                                                    <action selector="continueButton:" destination="CNi-OQ-nY2" eventType="touchUpInside" id="udx-qt-qyc"/>
+                                                    <segue destination="FFc-o9-VxB" kind="presentation" identifier="continueSegue" id="CQD-um-Lio"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DoU-uL-9AZ" userLabel="LogIn Stack View">
                                         <rect key="frame" x="0.0" y="190" width="343" height="31"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="075-tX-nNb">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="31"/>
-                                                <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="16"/>
-                                                <state key="normal" title="HAVE AN ACCOUNT? LOG IN"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="9"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="uIr-od-vpv" kind="popoverPresentation" identifier="toLogIn" popoverAnchorView="075-tX-nNb" id="mBZ-AW-tqS">
-                                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                                    </segue>
-                                                </connections>
-                                            </button>
-                                        </subviews>
                                     </stackView>
                                 </subviews>
                                 <constraints>
@@ -634,11 +520,13 @@
                             <constraint firstItem="tVX-h2-wop" firstAttribute="top" secondItem="dyX-Qv-yFF" secondAttribute="bottom" id="4hT-Ek-Omx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="EhX-l2-dLL" secondAttribute="trailing" id="KFe-p6-xh2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tVX-h2-wop" secondAttribute="trailing" constant="55" id="KHu-n1-a8A"/>
+                            <constraint firstItem="EhX-l2-dLL" firstAttribute="top" secondItem="hCI-E2-pFI" secondAttribute="top" constant="243" id="NPe-JP-ZAf"/>
                             <constraint firstItem="tVX-h2-wop" firstAttribute="leading" secondItem="hCI-E2-pFI" secondAttribute="leadingMargin" constant="54" id="a0j-AI-Pr5"/>
                             <constraint firstItem="bhi-B4-bNn" firstAttribute="top" secondItem="EhX-l2-dLL" secondAttribute="bottom" constant="203" id="fxM-3s-dxs"/>
                             <constraint firstItem="EhX-l2-dLL" firstAttribute="leading" secondItem="hCI-E2-pFI" secondAttribute="leadingMargin" id="uSk-4W-Iqe"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <connections>
                         <outlet property="email" destination="mF4-Ca-x36" id="541-5H-Nfa"/>
                         <outlet property="firstName" destination="VS3-Qh-Rja" id="HoT-Bd-zxC"/>
@@ -680,6 +568,9 @@
                                                 <state key="normal" title="MALE">
                                                     <color key="titleColor" red="0.018645260479999998" green="0.4776622653" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="maleButtonPressed:" destination="FFc-o9-VxB" eventType="touchUpInside" id="CG1-fI-7fW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liK-Xc-UMl">
                                                 <rect key="frame" x="246" y="0.0" width="97" height="50"/>
@@ -687,6 +578,9 @@
                                                 <state key="normal" title="FEMALE">
                                                     <color key="titleColor" red="0.018645260479999998" green="0.4776622653" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="femaleButtonPressed:" destination="FFc-o9-VxB" eventType="touchUpInside" id="Ebj-MF-djj"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -710,6 +604,9 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="textFieldDidChange:" destination="FFc-o9-VxB" eventType="editingDidEnd" id="LkN-Ty-wTC"/>
+                                                </connections>
                                             </textField>
                                         </subviews>
                                         <constraints>
@@ -717,7 +614,7 @@
                                             <constraint firstItem="qYM-RM-lh5" firstAttribute="leading" secondItem="81Z-wI-NXl" secondAttribute="trailing" constant="5" id="aH5-5H-0tZ"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jL-UO-ACD" customClass="DesignableButton" customModule="Dognerse" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jL-UO-ACD">
                                         <rect key="frame" x="8" y="230" width="343" height="50"/>
                                         <color key="backgroundColor" red="1" green="0.81960784310000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -732,8 +629,11 @@
                                                 <real key="value" value="25"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="chooseProfilePicture:" destination="FFc-o9-VxB" eventType="touchUpInside" id="Qnx-g2-3wU"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gy-Ao-OTM" customClass="DesignableButton" customModule="Dognerse" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gy-Ao-OTM">
                                         <rect key="frame" x="8" y="523" width="343" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="25"/>
@@ -749,6 +649,7 @@
                                             <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="20"/>
                                         </variation>
                                         <connections>
+                                            <action selector="signupUser:" destination="FFc-o9-VxB" eventType="touchUpInside" id="7jc-Eb-oDF"/>
                                             <segue destination="Q3J-Ic-lA3" kind="presentation" identifier="toMainVCFromSignUp" id="U7F-oR-bB5"/>
                                         </connections>
                                     </button>
@@ -811,8 +712,9 @@
                     </view>
                     <connections>
                         <outlet property="ProPicImageView" destination="sq4-eO-YA6" id="Nh3-MW-hWe"/>
+                        <outlet property="bdayLabel" destination="81Z-wI-NXl" id="1b8-bU-ZPD"/>
                         <outlet property="bdayTextField" destination="qYM-RM-lh5" id="ihg-Z9-Z87"/>
-                        <outlet property="chooseProPicButton" destination="9jL-UO-ACD" id="H9t-Wa-F6K"/>
+                        <outlet property="chooseProPicButton" destination="9jL-UO-ACD" id="NDZ-pc-8Fv"/>
                         <outlet property="femaleButton" destination="liK-Xc-UMl" id="BYE-uN-oIO"/>
                         <outlet property="maleButton" destination="9Xh-RQ-8yK" id="0VY-Rk-Chk"/>
                     </connections>
@@ -823,12 +725,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Name" width="16" height="16"/>
         <image name="email" width="16" height="16"/>
         <image name="password" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mBZ-AW-tqS"/>
-        <segue reference="U7F-oR-bB5"/>
+        <segue reference="X9O-2U-dNy"/>
     </inferredMetricsTieBreakers>
 </document>

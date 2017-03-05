@@ -78,7 +78,7 @@ class ContinueViewController: UIViewController,UITextFieldDelegate,UINavigationC
         super.viewDidLoad()
         
         bdayTextField.delegate = self.bdayTextField as! UITextFieldDelegate?
-        bdayTextField.keyboardType = UIKeyboardType.phonePad
+        bdayTextField.keyboardType = UIKeyboardType.phonePad 
         femaleButton.isHighlighted = true
         
         

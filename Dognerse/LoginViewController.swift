@@ -107,15 +107,12 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         //clearData()
-        email.delegate = self
+       email.delegate = self
         password.delegate = self
-        designView()
-    }
+          designView()
+         }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+  
     
     //MARKL:- UITextfield Method
     
@@ -126,9 +123,9 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     
     //MARK:- Action method
     
-    @IBAction func signUp(_ sender: Any) {
-        self.performSegue(withIdentifier: "toSignUp", sender: self)
-    }
+   @IBAction func signUp(_ sender: UIButton) {
+       performSegue(withIdentifier: "toSignUp", sender: self)
+   }
     
     
     @IBAction func loginButton(_ sender: UIButton) {

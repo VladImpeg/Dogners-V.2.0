@@ -31,7 +31,7 @@ class MainViewController: UIViewController,UIImagePickerControllerDelegate,UINav
     @IBOutlet weak var changeButtonOutlet: UIButton!
     
     func customizeView(){
-        profilePictureImageView.layer.borderWidth = 1
+        profilePictureImageView.layer.borderWidth = 2
         profilePictureImageView.layer.masksToBounds = false
         profilePictureImageView.layer.borderColor = UIColor.black.cgColor
         profilePictureImageView.layer.cornerRadius = profilePictureImageView.frame.height/1

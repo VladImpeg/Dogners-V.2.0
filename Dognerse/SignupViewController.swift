@@ -32,10 +32,10 @@ class SignupViewController: UIViewController,UITextFieldDelegate {
     }
     
     func setupDelegate(){
-       firstName.delegate = self.firstName as! UITextFieldDelegate?
-        lastName.delegate = self.lastName as! UITextFieldDelegate?
-       email.delegate = self.email as! UITextFieldDelegate?
-    password.delegate = self.password as! UITextFieldDelegate?
+       firstName.delegate = self
+        lastName.delegate = self
+       email.delegate = self
+    password.delegate = self
     }
     
     override func viewDidLoad() {
@@ -99,9 +99,7 @@ class SignupViewController: UIViewController,UITextFieldDelegate {
         }
     }
     
-    @IBAction func toLoginButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "toLogIn", sender: self)
-    }
+ 
     
     
 }
