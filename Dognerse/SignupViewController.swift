@@ -32,10 +32,13 @@ class SignupViewController: UIViewController,UITextFieldDelegate {
     }
     
     func setupDelegate(){
-       firstName.delegate = self
-        lastName.delegate = self
-       email.delegate = self
-    password.delegate = self
+      // firstName.delegate = self.firstName as? UITextFieldDelegate
+//        lastName.delegate = self.lastName as! UITextFieldDelegate?
+//       email.delegate = self.email as! UITextFieldDelegate? 
+//    password.delegate = self.password as! UITextFieldDelegate?
+    }
+    override func awakeFromNib() {
+        super.awakeFromNib()
     }
     
     override func viewDidLoad() {
@@ -92,10 +95,10 @@ class SignupViewController: UIViewController,UITextFieldDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "continueSegue"{
             let addUserInfoVC = segue.destination as! ContinueViewController
-            addUserInfoVC.firstName = firstName.text!
-            addUserInfoVC.lastName = lastName.text!
-            addUserInfoVC.email = email.text!
-            addUserInfoVC.password = password.text!
+            addUserInfoVC.firstName = self.firstName.text!
+            addUserInfoVC.lastName = self.lastName.text!
+            addUserInfoVC.email = self.email.text!
+            addUserInfoVC.password = self.password.text!
         }
     }
     

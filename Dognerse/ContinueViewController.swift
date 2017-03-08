@@ -77,7 +77,8 @@ class ContinueViewController: UIViewController,UITextFieldDelegate,UINavigationC
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        bdayTextField.delegate = self.bdayTextField as! UITextFieldDelegate?
+       // bdayTextField.delegate = self.bdayTextField as! UITextFieldDelegate?
+        bdayTextField.delegate = self
         bdayTextField.keyboardType = UIKeyboardType.phonePad 
         femaleButton.isHighlighted = true
         

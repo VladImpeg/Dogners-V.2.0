@@ -12,7 +12,7 @@
 		AB03E5391E6317F600D59444 /* Dognerse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB03E5371E6317F600D59444 /* Dognerse.xcdatamodeld */; };
 		AB03E53B1E6317F600D59444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB03E53A1E6317F600D59444 /* Assets.xcassets */; };
 		AB03E53E1E6317F600D59444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB03E53C1E6317F600D59444 /* LaunchScreen.storyboard */; };
-		AB1751121E6C321A00F80DD8 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1751111E6C321A00F80DD8 /* Messages.framework */; };
+		AB1474E41E6ED5FF00919EC9 /* PagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1474E31E6ED5FF00919EC9 /* PagesVC.swift */; };
 		AB9BE2F41E68400200D473A3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9BE2F31E68400200D473A3 /* CoreData.framework */; };
 		ABA0A84C1E676A9600FD45A2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0A84B1E676A9600FD45A2 /* MapViewController.swift */; };
 		ABA0A84F1E676AAC00FD45A2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA0A84E1E676AAC00FD45A2 /* MapKit.framework */; };
@@ -21,23 +21,8 @@
 		ABA0A8571E682CDD00FD45A2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0A8561E682CDD00FD45A2 /* SignupViewController.swift */; };
 		ABA0A8591E682F3100FD45A2 /* ContinueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0A8581E682F3100FD45A2 /* ContinueViewController.swift */; };
 		ABA0A85B1E68300500FD45A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0A85A1E68300500FD45A2 /* MainViewController.swift */; };
-		ABA57DF01E6C9FFC00E370E0 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1751111E6C321A00F80DD8 /* Messages.framework */; };
-		ABA57DF31E6C9FFC00E370E0 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA57DF21E6C9FFC00E370E0 /* MessagesViewController.swift */; };
-		ABA57DF61E6C9FFC00E370E0 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA57DF41E6C9FFC00E370E0 /* MainInterface.storyboard */; };
-		ABA57DF81E6C9FFC00E370E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA57DF71E6C9FFC00E370E0 /* Assets.xcassets */; };
-		ABA57DFC1E6C9FFC00E370E0 /* iMessage.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ABA57DEF1E6C9FFC00E370E0 /* iMessage.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		ABF71C801E6C45E1004AB8FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB03E5341E6317F600D59444 /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		ABA57DFA1E6C9FFC00E370E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB03E5251E6317F600D59444 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABA57DEE1E6C9FFC00E370E0;
-			remoteInfo = iMessage;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		ABA57E001E6C9FFC00E370E0 /* Embed App Extensions */ = {
@@ -46,7 +31,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				ABA57DFC1E6C9FFC00E370E0 /* iMessage.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +46,7 @@
 		AB03E53A1E6317F600D59444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB03E53D1E6317F600D59444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB03E53F1E6317F600D59444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB1751111E6C321A00F80DD8 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		AB1474E31E6ED5FF00919EC9 /* PagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagesVC.swift; path = ../PagesVC.swift; sourceTree = "<group>"; };
 		AB9BE2F31E68400200D473A3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		ABA0A84B1E676A9600FD45A2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ABA0A84E1E676AAC00FD45A2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -71,11 +55,6 @@
 		ABA0A8561E682CDD00FD45A2 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		ABA0A8581E682F3100FD45A2 /* ContinueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinueViewController.swift; sourceTree = "<group>"; };
 		ABA0A85A1E68300500FD45A2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		ABA57DEF1E6C9FFC00E370E0 /* iMessage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iMessage.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA57DF21E6C9FFC00E370E0 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
-		ABA57DF51E6C9FFC00E370E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		ABA57DF71E6C9FFC00E370E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ABA57DF91E6C9FFC00E370E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,17 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1751121E6C321A00F80DD8 /* Messages.framework in Frameworks */,
 				AB9BE2F41E68400200D473A3 /* CoreData.framework in Frameworks */,
 				ABA0A84F1E676AAC00FD45A2 /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABA57DEC1E6C9FFC00E370E0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABA57DF01E6C9FFC00E370E0 /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				AB03E52F1E6317F600D59444 /* Dognerse */,
-				ABA57DF11E6C9FFC00E370E0 /* iMessage */,
 				AB03E52E1E6317F600D59444 /* Products */,
 				ABA0A84D1E676AAB00FD45A2 /* Frameworks */,
 			);
@@ -114,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				AB03E52D1E6317F600D59444 /* Dognerse.app */,
-				ABA57DEF1E6C9FFC00E370E0 /* iMessage.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +96,7 @@
 				ABA0A8501E676F8A00FD45A2 /* ParkViewController.swift */,
 				ABA0A84B1E676A9600FD45A2 /* MapViewController.swift */,
 				AB03E5341E6317F600D59444 /* Main.storyboard */,
+				AB1474E31E6ED5FF00919EC9 /* PagesVC.swift */,
 				ABA0A8581E682F3100FD45A2 /* ContinueViewController.swift */,
 				ABA0A85A1E68300500FD45A2 /* MainViewController.swift */,
 				ABA0A8561E682CDD00FD45A2 /* SignupViewController.swift */,
@@ -151,22 +120,10 @@
 		ABA0A84D1E676AAB00FD45A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB1751111E6C321A00F80DD8 /* Messages.framework */,
 				AB9BE2F31E68400200D473A3 /* CoreData.framework */,
 				ABA0A84E1E676AAC00FD45A2 /* MapKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ABA57DF11E6C9FFC00E370E0 /* iMessage */ = {
-			isa = PBXGroup;
-			children = (
-				ABA57DF21E6C9FFC00E370E0 /* MessagesViewController.swift */,
-				ABA57DF41E6C9FFC00E370E0 /* MainInterface.storyboard */,
-				ABA57DF71E6C9FFC00E370E0 /* Assets.xcassets */,
-				ABA57DF91E6C9FFC00E370E0 /* Info.plist */,
-			);
-			path = iMessage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,29 +141,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				ABA57DFB1E6C9FFC00E370E0 /* PBXTargetDependency */,
 			);
 			name = Dognerse;
 			productName = Dognerse;
 			productReference = AB03E52D1E6317F600D59444 /* Dognerse.app */;
 			productType = "com.apple.product-type.application";
-		};
-		ABA57DEE1E6C9FFC00E370E0 /* iMessage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ABA57DFD1E6C9FFC00E370E0 /* Build configuration list for PBXNativeTarget "iMessage" */;
-			buildPhases = (
-				ABA57DEB1E6C9FFC00E370E0 /* Sources */,
-				ABA57DEC1E6C9FFC00E370E0 /* Frameworks */,
-				ABA57DED1E6C9FFC00E370E0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = iMessage;
-			productName = iMessage;
-			productReference = ABA57DEF1E6C9FFC00E370E0 /* iMessage.appex */;
-			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
@@ -219,10 +158,6 @@
 				ORGANIZATIONNAME = "Vlad Kovryzhenko";
 				TargetAttributes = {
 					AB03E52C1E6317F600D59444 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
-					ABA57DEE1E6C9FFC00E370E0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -242,7 +177,6 @@
 			projectRoot = "";
 			targets = (
 				AB03E52C1E6317F600D59444 /* Dognerse */,
-				ABA57DEE1E6C9FFC00E370E0 /* iMessage */,
 			);
 		};
 /* End PBXProject section */
@@ -258,15 +192,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABA57DED1E6C9FFC00E370E0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABA57DF81E6C9FFC00E370E0 /* Assets.xcassets in Resources */,
-				ABA57DF61E6C9FFC00E370E0 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -277,6 +202,7 @@
 				ABA0A8551E682BC900FD45A2 /* LoginViewController.swift in Sources */,
 				ABA0A8571E682CDD00FD45A2 /* SignupViewController.swift in Sources */,
 				AB03E5331E6317F600D59444 /* ViewController.swift in Sources */,
+				AB1474E41E6ED5FF00919EC9 /* PagesVC.swift in Sources */,
 				ABA0A8591E682F3100FD45A2 /* ContinueViewController.swift in Sources */,
 				AB03E5311E6317F600D59444 /* AppDelegate.swift in Sources */,
 				AB03E5391E6317F600D59444 /* Dognerse.xcdatamodeld in Sources */,
@@ -286,23 +212,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABA57DEB1E6C9FFC00E370E0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABA57DF31E6C9FFC00E370E0 /* MessagesViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ABA57DFB1E6C9FFC00E370E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ABA57DEE1E6C9FFC00E370E0 /* iMessage */;
-			targetProxy = ABA57DFA1E6C9FFC00E370E0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB03E5341E6317F600D59444 /* Main.storyboard */ = {
@@ -319,14 +229,6 @@
 				AB03E53D1E6317F600D59444 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		ABA57DF41E6C9FFC00E370E0 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABA57DF51E6C9FFC00E370E0 /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -438,7 +340,6 @@
 		AB03E5431E6317F600D59444 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
@@ -454,7 +355,6 @@
 		AB03E5441E6317F600D59444 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
@@ -463,39 +363,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = whatever.Dognerse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		ABA57DFE1E6C9FFC00E370E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = iMessage/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = whatever.Dognerse.iMessage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		ABA57DFF1E6C9FFC00E370E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = iMessage/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = whatever.Dognerse.iMessage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -520,14 +387,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		ABA57DFD1E6C9FFC00E370E0 /* Build configuration list for PBXNativeTarget "iMessage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ABA57DFE1E6C9FFC00E370E0 /* Debug */,
-				ABA57DFF1E6C9FFC00E370E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 

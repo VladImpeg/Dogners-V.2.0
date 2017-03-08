@@ -31,14 +31,14 @@ class MainViewController: UIViewController,UIImagePickerControllerDelegate,UINav
     @IBOutlet weak var changeButtonOutlet: UIButton!
     
     func customizeView(){
-        profilePictureImageView.layer.borderWidth = 2
+        profilePictureImageView.layer.borderWidth = 1
         profilePictureImageView.layer.masksToBounds = false
         profilePictureImageView.layer.borderColor = UIColor.black.cgColor
-        profilePictureImageView.layer.cornerRadius = profilePictureImageView.frame.height/1
+        profilePictureImageView.layer.cornerRadius = profilePictureImageView.frame.height/2
         profilePictureImageView.clipsToBounds = true
         
         changeButtonOutlet.layer.masksToBounds = false;
-        changeButtonOutlet.layer.cornerRadius = changeButtonOutlet.frame.height/1;
+        changeButtonOutlet.layer.cornerRadius = changeButtonOutlet.frame.height/2;
     }
     
     //Picks the select image and set it to imageView
