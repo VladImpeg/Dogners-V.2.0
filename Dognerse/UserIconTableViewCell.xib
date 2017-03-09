@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="UserIconTableViewCell" customModule="Dognerse" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CFY-qS-rg1">
+                        <rect key="frame" x="0.0" y="1" width="334" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="334" id="6Ji-Uf-85g"/>
+                            <constraint firstAttribute="height" constant="150" id="MYE-mK-iw0"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YGI-sX-NaU">
+                        <rect key="frame" x="0.0" y="112" width="334" height="38"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICG-Hj-xmH">
+                                <rect key="frame" x="8" y="8" width="86" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="dQW-wI-e5h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nW-nh-WeJ">
+                                <rect key="frame" x="102" y="8" width="22" height="22"/>
+                                <connections>
+                                    <action selector="ProfileInfoBut:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DdR-ve-JIx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZj-NU-2by">
+                                <rect key="frame" x="297" y="5" width="29" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="29" id="npb-9c-K8u"/>
+                                    <constraint firstAttribute="width" constant="29" id="xGN-ZE-dsf"/>
+                                </constraints>
+                                <state key="normal" image="Settings"/>
+                                <connections>
+                                    <action selector="SettingsBut:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="2dr-GU-Bqf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88242392015706805" green="0.88242392015706805" blue="0.88242392015706805" alpha="0.35214428191489361" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="MZj-NU-2by" firstAttribute="top" secondItem="YGI-sX-NaU" secondAttribute="topMargin" constant="-3" id="Abb-A4-44m"/>
+                            <constraint firstItem="1nW-nh-WeJ" firstAttribute="leading" secondItem="ICG-Hj-xmH" secondAttribute="trailing" constant="8" symbolic="YES" id="Ajz-RO-Q9r"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="MZj-NU-2by" secondAttribute="bottom" constant="-1" id="C9Q-XC-qDt"/>
+                            <constraint firstItem="ICG-Hj-xmH" firstAttribute="leading" secondItem="YGI-sX-NaU" secondAttribute="leadingMargin" id="D1c-Is-ype"/>
+                            <constraint firstItem="MZj-NU-2by" firstAttribute="leading" secondItem="1nW-nh-WeJ" secondAttribute="trailing" constant="173" id="Dig-ig-FeP"/>
+                            <constraint firstItem="ICG-Hj-xmH" firstAttribute="centerY" secondItem="MZj-NU-2by" secondAttribute="centerY" id="J3r-dT-Hsb"/>
+                            <constraint firstItem="1nW-nh-WeJ" firstAttribute="centerY" secondItem="ICG-Hj-xmH" secondAttribute="centerY" id="clj-lM-efu"/>
+                            <constraint firstItem="ICG-Hj-xmH" firstAttribute="top" secondItem="YGI-sX-NaU" secondAttribute="topMargin" id="rUE-lB-srl"/>
+                            <constraint firstItem="MZj-NU-2by" firstAttribute="trailing" secondItem="YGI-sX-NaU" secondAttribute="trailingMargin" id="xPF-Ib-TqN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YGI-sX-NaU" firstAttribute="leading" secondItem="CFY-qS-rg1" secondAttribute="leading" id="1il-oh-Gd3"/>
+                    <constraint firstItem="YGI-sX-NaU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5Mx-eJ-955"/>
+                    <constraint firstItem="CFY-qS-rg1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-7" id="BUd-n9-6zA"/>
+                    <constraint firstItem="YGI-sX-NaU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="112" id="Ixq-Ps-qGj"/>
+                    <constraint firstAttribute="trailing" secondItem="YGI-sX-NaU" secondAttribute="trailing" id="Jod-lr-Y3b"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="YGI-sX-NaU" secondAttribute="bottom" constant="-9" id="ibF-en-VpH"/>
+                    <constraint firstItem="YGI-sX-NaU" firstAttribute="centerX" secondItem="CFY-qS-rg1" secondAttribute="centerX" id="idb-WK-HB3"/>
+                    <constraint firstItem="YGI-sX-NaU" firstAttribute="trailing" secondItem="CFY-qS-rg1" secondAttribute="trailing" id="jDl-Cx-u7c"/>
+                    <constraint firstItem="YGI-sX-NaU" firstAttribute="bottom" secondItem="CFY-qS-rg1" secondAttribute="bottom" constant="-1" id="kfP-Ve-ybL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="UserName" destination="ICG-Hj-xmH" id="5eg-ga-G85"/>
+                <outlet property="UserProfilePicture" destination="CFY-qS-rg1" id="bL0-ew-a1C"/>
+            </connections>
+            <point key="canvasLocation" x="41" y="107"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Settings" width="26" height="26"/>
+    </resources>
+</document>

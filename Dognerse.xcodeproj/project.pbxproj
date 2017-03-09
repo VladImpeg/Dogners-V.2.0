@@ -13,6 +13,12 @@
 		AB03E53B1E6317F600D59444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB03E53A1E6317F600D59444 /* Assets.xcassets */; };
 		AB03E53E1E6317F600D59444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB03E53C1E6317F600D59444 /* LaunchScreen.storyboard */; };
 		AB1474E41E6ED5FF00919EC9 /* PagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1474E31E6ED5FF00919EC9 /* PagesVC.swift */; };
+		AB1474EC1E703F3800919EC9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1474EB1E703F3800919EC9 /* SWRevealViewController.m */; };
+		AB1474EF1E70495D00919EC9 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1474EE1E70495D00919EC9 /* BackTableVC.swift */; };
+		AB1474F11E716A8000919EC9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1474F01E716A8000919EC9 /* MessageViewController.swift */; };
+		AB1474F31E71710900919EC9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1474F21E71710900919EC9 /* SettingsViewController.swift */; };
+		AB1474F61E71823300919EC9 /* UserIconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1474F41E71823300919EC9 /* UserIconTableViewCell.swift */; };
+		AB1474F71E71823300919EC9 /* UserIconTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1474F51E71823300919EC9 /* UserIconTableViewCell.xib */; };
 		AB9BE2F41E68400200D473A3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9BE2F31E68400200D473A3 /* CoreData.framework */; };
 		ABA0A84C1E676A9600FD45A2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0A84B1E676A9600FD45A2 /* MapViewController.swift */; };
 		ABA0A84F1E676AAC00FD45A2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA0A84E1E676AAC00FD45A2 /* MapKit.framework */; };
@@ -47,6 +53,14 @@
 		AB03E53D1E6317F600D59444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB03E53F1E6317F600D59444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB1474E31E6ED5FF00919EC9 /* PagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagesVC.swift; path = ../PagesVC.swift; sourceTree = "<group>"; };
+		AB1474E91E703F3700919EC9 /* Dognerse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dognerse-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB1474EA1E703F3800919EC9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AB1474EB1E703F3800919EC9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AB1474EE1E70495D00919EC9 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackTableVC.swift; path = ../BackTableVC.swift; sourceTree = "<group>"; };
+		AB1474F01E716A8000919EC9 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		AB1474F21E71710900919EC9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Dognerse/SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
+		AB1474F41E71823300919EC9 /* UserIconTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserIconTableViewCell.swift; sourceTree = "<group>"; };
+		AB1474F51E71823300919EC9 /* UserIconTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserIconTableViewCell.xib; sourceTree = "<group>"; };
 		AB9BE2F31E68400200D473A3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		ABA0A84B1E676A9600FD45A2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ABA0A84E1E676AAC00FD45A2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -91,11 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				AB9BE2F51E68436400D473A3 /* Model */,
+				AB1474F81E71863100919EC9 /* ScrollMenu */,
 				AB03E5301E6317F600D59444 /* AppDelegate.swift */,
+				AB1474F21E71710900919EC9 /* SettingsViewController.swift */,
 				AB03E5321E6317F600D59444 /* ViewController.swift */,
 				ABA0A8501E676F8A00FD45A2 /* ParkViewController.swift */,
 				ABA0A84B1E676A9600FD45A2 /* MapViewController.swift */,
 				AB03E5341E6317F600D59444 /* Main.storyboard */,
+				AB1474F01E716A8000919EC9 /* MessageViewController.swift */,
 				AB1474E31E6ED5FF00919EC9 /* PagesVC.swift */,
 				ABA0A8581E682F3100FD45A2 /* ContinueViewController.swift */,
 				ABA0A85A1E68300500FD45A2 /* MainViewController.swift */,
@@ -105,8 +122,29 @@
 				AB03E53C1E6317F600D59444 /* LaunchScreen.storyboard */,
 				AB03E53F1E6317F600D59444 /* Info.plist */,
 				AB03E5371E6317F600D59444 /* Dognerse.xcdatamodeld */,
+				AB1474ED1E703F4200919EC9 /* SlideOut support */,
 			);
 			path = Dognerse;
+			sourceTree = "<group>";
+		};
+		AB1474ED1E703F4200919EC9 /* SlideOut support */ = {
+			isa = PBXGroup;
+			children = (
+				AB1474EA1E703F3800919EC9 /* SWRevealViewController.h */,
+				AB1474EB1E703F3800919EC9 /* SWRevealViewController.m */,
+				AB1474E91E703F3700919EC9 /* Dognerse-Bridging-Header.h */,
+			);
+			name = "SlideOut support";
+			sourceTree = "<group>";
+		};
+		AB1474F81E71863100919EC9 /* ScrollMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AB1474EE1E70495D00919EC9 /* BackTableVC.swift */,
+				AB1474F41E71823300919EC9 /* UserIconTableViewCell.swift */,
+				AB1474F51E71823300919EC9 /* UserIconTableViewCell.xib */,
+			);
+			name = ScrollMenu;
 			sourceTree = "<group>";
 		};
 		AB9BE2F51E68436400D473A3 /* Model */ = {
@@ -159,6 +197,7 @@
 				TargetAttributes = {
 					AB03E52C1E6317F600D59444 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -187,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB03E53E1E6317F600D59444 /* LaunchScreen.storyboard in Resources */,
+				AB1474F71E71823300919EC9 /* UserIconTableViewCell.xib in Resources */,
 				AB03E53B1E6317F600D59444 /* Assets.xcassets in Resources */,
 				ABF71C801E6C45E1004AB8FE /* Main.storyboard in Resources */,
 			);
@@ -200,13 +240,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABA0A8551E682BC900FD45A2 /* LoginViewController.swift in Sources */,
+				AB1474F11E716A8000919EC9 /* MessageViewController.swift in Sources */,
 				ABA0A8571E682CDD00FD45A2 /* SignupViewController.swift in Sources */,
+				AB1474EF1E70495D00919EC9 /* BackTableVC.swift in Sources */,
 				AB03E5331E6317F600D59444 /* ViewController.swift in Sources */,
 				AB1474E41E6ED5FF00919EC9 /* PagesVC.swift in Sources */,
+				AB1474F61E71823300919EC9 /* UserIconTableViewCell.swift in Sources */,
 				ABA0A8591E682F3100FD45A2 /* ContinueViewController.swift in Sources */,
 				AB03E5311E6317F600D59444 /* AppDelegate.swift in Sources */,
 				AB03E5391E6317F600D59444 /* Dognerse.xcdatamodeld in Sources */,
+				AB1474F31E71710900919EC9 /* SettingsViewController.swift in Sources */,
 				ABA0A85B1E68300500FD45A2 /* MainViewController.swift in Sources */,
+				AB1474EC1E703F3800919EC9 /* SWRevealViewController.m in Sources */,
 				ABA0A84C1E676A9600FD45A2 /* MapViewController.swift in Sources */,
 				ABA0A8511E676F8A00FD45A2 /* ParkViewController.swift in Sources */,
 			);
@@ -341,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Dognerse/Info.plist;
@@ -348,6 +394,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = whatever.Dognerse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dognerse/Dognerse-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -356,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Dognerse/Info.plist;
@@ -363,6 +411,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = whatever.Dognerse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dognerse/Dognerse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

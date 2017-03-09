@@ -15,8 +15,16 @@ import CoreLocation
 class MapViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var Map: MKMapView!
+    
+    @IBOutlet weak var Open: UIBarButtonItem!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        Open.target = self.revealViewController()
+        Open.action = #selector(SWRevealViewController.revealToggle(_:))
+        
+        
         let location = CLLocationCoordinate2DMake(50.317117, 30.298167000000035)
         let span = MKCoordinateSpanMake(0.002, 0.002)
         

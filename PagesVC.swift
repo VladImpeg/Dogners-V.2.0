@@ -10,8 +10,8 @@ import UIKit
 
 class PagesVC: UIPageViewController,UIPageViewControllerDataSource,UIPageViewControllerDelegate {
     lazy var VCArr: [UIViewController] = {
-        return [self.VCInstance(name: "FirstVC"),
-                self.VCInstance(name: "SecondVC"),
+        return [self.VCInstance(name: "ParkVC"),
+                self.VCInstance(name: "MessageVC"),
                 self.VCInstance(name: "ThirdVC")]
     }()
     
